@@ -1,14 +1,14 @@
 local addonName, ns = ...
 
-local DEFAULT_X = 12
-local DEFAULT_Y = -12
+local DEFAULT_X = 0
+local DEFAULT_Y = 0
 local DEFAULT_SCALE = 100
 local DEFAULT_ANCHOR = "bottomright"
-local DEFAULT_ORIGIN = "topleft"
+local DEFAULT_ORIGIN = "bottomright"
 local DEFAULT_FLIP = "off"
-local DEFAULT_FADE = 1
+local DEFAULT_FADE = 0
 local FADE_TIME = 1
-local MAX_FADE = 30
+local MAX_FADE = 5
 local DEFAULT_CURSOR = 32
 -- The hotspot is the tip. The visible tail ends about halfway across the texture,
 -- so a 32x32 cursor spans about 16 pixels from the tip to the opposite corner.
