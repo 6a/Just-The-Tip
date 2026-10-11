@@ -1,0 +1,6 @@
+package-as: JustTheTip
+
+ignore:
+  - bundle
+  - DESCRIPTION.md
+  - logo.png
